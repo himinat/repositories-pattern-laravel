@@ -1,5 +1,5 @@
 {
-    "name": "himinat/repositories",
+    "name": "himinat/repositories-pattern-laravel",
     "description": "Repository pattern implementation for Laravel > 5.3",
     "license": "MIT",
     "keywords": [
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "himinat\\repositories\\": "src/"
+            "himinat\\repositories-pattern-laravel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "himinat\\repositories\\": "tests/"
+            "himinat\\repositories-pattern-laravel\\": "tests/"
         }
     }
 }
